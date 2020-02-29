@@ -1,0 +1,340 @@
+/**Top section**/
+.position-bg{
+    background-image: linear-gradient(cyan,blue);
+    height: 100%;
+    padding-top:100px;
+    padding-bottom: 100px;
+    margin-top: 80px;
+    
+}
+.bg-link{
+    background-color: white;
+    text-align: center;
+    border-radius: 20px;
+    border: 1px solid gray;
+}
+.bg-link:hover{
+    background-color:rgb(241, 241, 241);
+}
+.logo{
+    margin-top: -10px;
+}
+.position-bg:hover{
+    background-image: linear-gradient(rgb(255, 165, 47),cyan,blue);
+    color: rgb(105, 0, 0);
+}
+.position-bg h1{
+    color: white;
+    font-size: 50px;
+}
+.slide-img img{
+    width: 100%;
+    height:100%;
+}
+.position-bg img{
+    width: 100%;
+    height: 100%;
+    margin-left:0px ;
+}
+
+.img-top img{
+    width: 100%;
+    height: 60px;
+}
+
+.follow-btn{
+    background-image: linear-gradient(orange,tomato);
+    padding:10px ; 
+    border-radius: 20px;
+    box-shadow: 0 0 10px gray;
+    margin-left: 100px;
+    margin-bottom:10px;
+    margin-top: 10px;
+    text-decoration: none;
+}
+.follow-btn:hover{
+    background-image: none;
+    border: 2px solid red;
+    font-size: 20px;
+    font-weight: 900;
+    text-shadow: 0 0 5px black;
+    border-radius: 30px;
+
+}
+.caro-img-3{
+    margin-top: 10px;
+}
+/**animation of the slider**/
+.animation{
+    animation-name: rainbowtext;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+@keyframes rainbowtext{
+    0%{
+        color: red;
+        font-size: 70px;
+    }
+    25%{
+        color:purple;
+    }
+    50%{
+        color: yellow;
+        font-size: 70px;
+    }
+    75%{
+        color:greenyellow;
+        font-size: 70px;
+    }
+    100%{
+        color: orange;
+        font-size: 70px;
+    }
+}
+.animation-2{
+    animation-name: rainbowtext2;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+@keyframes rainbowtext2{
+    0%{
+        color: red;
+        font-size: 50px;
+    }
+    25%{
+        color:purple;
+    }
+    50%{
+        color: orange;
+        font-size: 50px;
+    }
+    75%{
+        color:greenyellow;
+        font-size: 50px;
+    }
+    100%{
+        color: yellow;
+        font-size: 50px;
+    }
+}
+.animation-3{
+    animation-name: rainbowtext3;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+@keyframes rainbowtext3{
+    0%{
+        color: rgb(0, 255, 0);
+        font-size: 50px;
+    }
+    25%{
+        color:rgb(255, 9, 255);
+    }
+    50%{
+        color: orange;
+        font-size: 50px;
+    }
+    75%{
+        color:greenyellow;
+        font-size: 50px;
+    }
+    100%{
+        color: rgb(251, 255, 0);
+        font-size: 50px;
+    }
+}
+
+.follow-btn{ 
+    animation-name: rainbowtext4;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite; 
+}
+@keyframes rainbowtext4{
+    0%{
+        color: rgb(0, 255, 0);
+        font-size: 20px;
+    }
+    25%{
+        color:rgb(255, 9, 255);
+    }
+    50%{
+        color: orange;
+        font-size: 20px;
+    }
+    75%{
+        color:greenyellow;
+        font-size: 22px;
+    }
+    100%{
+        color: rgb(251, 255, 0);
+        font-size: 20px;
+    }
+}
+/**load animation**/
+.load{
+    margin-top: 600px;
+    margin:auto;
+    border: 16px solid ;
+    width: 200px;
+    height: 200px;
+    border-top-color: red;
+    border-bottom-color: green; 
+    border-radius: 100px;
+    animation:spin 2s linear infinite;
+ }
+ @keyframes spin{
+     0%{
+         transform:rotate(0deg) ;
+     }
+     100%{
+         transform:rotate(360deg) ;
+     }
+ }
+ /**Skill section**/
+ .header{
+     border-bottom: solid tomato 2px;
+     width: 60px;
+     margin-top: 40px;
+ }
+ .cd-body{
+     margin-top: 40px;
+     background-image: url("img/exp-bg.png");
+     background-position: center;
+     margin-bottom: 100px;
+ }
+ .card{
+     border: none;
+     box-shadow: 0 0 10px gray;
+     border-radius: 10px;
+     height: 150px;
+     font-weight: 900;
+ }
+ .card:hover{
+     border: 2px solid tomato;
+     color: orange;
+     background-color: none;
+     border-radius: 10px;
+ }
+ /**latest work**/
+.link-btn {
+    background-image: linear-gradient(yellow,rgb(255, 208, 0));
+    border-radius: 10px;
+    padding:10px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 900;
+    color: white;
+    text-shadow: 0 0 5px gray;
+}
+.link-btn{ 
+    animation-name: rainbowtext5;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite; 
+}
+@keyframes rainbowtext5{
+    0%{
+        color: rgb(0, 255, 0);
+        font-size: 20px;
+    }
+    25%{
+        color:rgb(255, 9, 255);
+    }
+    50%{
+        color: orange;
+        font-size: 20px;
+    }
+    75%{
+        color:greenyellow;
+        font-size: 25px;
+    }
+    100%{
+        color: rgb(251, 255, 0);
+        font-size: 20px;
+    }
+} 
+.latest-head img{
+    width: 100%;
+}
+.latest-bg{
+    margin-bottom: 100px;
+}
+.web-head h1{
+    margin-bottom: 30px;
+    border-bottom: orange solid 2px;
+    width: 200px;
+}
+
+/** portfilio section**/
+.port-head img{
+    width: 100%;
+}
+.port-img img{
+    width: 100%;
+    margin-top: 20px;
+}
+
+/** contact section**/
+.contact-hed{
+    text-align: center;
+    margin-top: 100px;
+    color: white;
+    margin-bottom: 30px;
+}
+.contact-hed{
+    animation-name: rainbowtext6;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+@keyframes rainbowtext6{
+    0%{
+        color: red;
+        font-size: 30px;
+    }
+    25%{
+        color:purple;
+    }
+    50%{
+        color: yellow;
+        font-size: 30px;
+    }
+    75%{
+        color:greenyellow;
+        font-size: 30px;
+    }
+    100%{
+        color: orange;
+        font-size: 32px;
+    }
+}
+.link-color{
+    color: white;
+    font-weight: 900;
+}
+.contact-bg{
+    background-image: linear-gradient(cyan,blue);
+    height: 200px;
+    text-align: center;
+    border-radius: 30px;
+}
+.contact-bg:hover{
+    background-image: linear-gradient(rgb(255, 162, 255),cyan,blue); 
+}
+
+/** footer **/
+.foot{
+    text-align: center;
+    font-size: x-small;
+}
+
