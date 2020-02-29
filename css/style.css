@@ -199,15 +199,21 @@
      }
  }
  /**Skill section**/
+
+#skill{
+    background: url(../img/mac.jpg);
+    background-attachment: fixed;
+    min-height: 500px;
+    background-size: cover;
+}
+
  .header{
      border-bottom: solid tomato 2px;
      width: 60px;
      margin-top: 40px;
  }
  .cd-body{
-     margin-top: 40px;
-     background-image: url("img/exp-bg.png");
-     background-position: center;
+     margin-top: 100px;
      margin-bottom: 100px;
  }
  .card{
@@ -289,6 +295,10 @@
     margin-top: 100px;
     color: white;
     margin-bottom: 30px;
+}
+
+h1.header {
+    color: white;
 }
 .contact-hed{
     animation-name: rainbowtext6;
