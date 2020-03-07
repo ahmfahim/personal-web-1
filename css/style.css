@@ -20,7 +20,7 @@
     margin-top: -10px;
 }
 .position-bg:hover{
-    background-image: linear-gradient(rgb(255, 165, 47),cyan,blue);
+    background-image: linear-gradient(rgb(255, 196, 119),cyan,blue);
     color: rgb(105, 0, 0);
 }
 .position-bg h1{
@@ -201,20 +201,21 @@
  /**Skill section**/
 
 #skill{
-    background: url(../img/mac.jpg);
+    background: url(../img/skill-bg.jpg);
     background-attachment: fixed;
     min-height: 500px;
     background-size: cover;
 }
 
- .header{
-     border-bottom: solid tomato 2px;
-     width: 60px;
+ .header h1{
+     padding-top: 80px;
      margin-top: 40px;
+     color: rgb(0, 0, 0);
+     text-shadow: 0 0 10px dimgray;
  }
  .cd-body{
-     margin-top: 100px;
-     margin-bottom: 100px;
+     margin-top: 80px;
+     padding-bottom: 100px;
  }
  .card{
      border: none;
@@ -222,14 +223,138 @@
      border-radius: 10px;
      height: 150px;
      font-weight: 900;
+     color: dimgray;
  }
  .card:hover{
      border: 2px solid tomato;
-     color: orange;
-     background-color: none;
+     color: rgb(255, 115, 0);
+     background-color: rgba(255, 255, 255, 0);
      border-radius: 10px;
  }
+.cd-animation{   
+    animation-name: rainbowtext10;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite; 
+}
+@keyframes rainbowtext10{
+    0%{
+        color: rgb(255, 0, 0);
+        font-size: 20px;
+    }
+    25%{
+        color: rgb(251, 255, 0);
+    }
+    50%{
+        color:rgb(21, 255, 0);
+        font-size: 20px;
+    }
+    75%{
+        color: tomato;
+        font-size: 20px;
+    }
+    100%{
+        color: rgb(251, 255, 0);
+        font-size: 20px;
+    }
+} 
+.cd-animation2{   
+    animation-name: rainbowtext11;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite; 
+}
+@keyframes rainbowtext11{
+    0%{
+        color: rgb(255, 0, 0);
+        font-size: 20px;
+    }
+    25%{
+        color:rgb(70, 104, 255);
+    }
+    50%{
+        color: rgb(255, 38, 0);
+        font-size: 20px;
+    }
+    75%{
+        color:rgb(0, 0, 0);
+        font-size: 20px;
+    }
+    100%{
+        color: rgb(251, 255, 0);
+        font-size: 20px;
+    }
+}
+
+.cd-animation3{   
+    animation-name: rainbowtext13;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite; 
+}
+@keyframes rainbowtext13{
+    0%{
+        color: rgb(255, 0, 0);
+        font-size: 20px;
+    }
+    25%{
+        color:rgb(70, 104, 255);
+    }
+    50%{
+        color: tomato;
+        font-size: 20px;
+    }
+    75%{
+        color:rgb(21, 255, 0);
+        font-size: 20px;
+    }
+    100%{
+        color: rgb(251, 255, 0);
+        font-size: 20px;
+    }
+}
+.cd-animation4{   
+    animation-name: rainbowtext15;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite; 
+}
+@keyframes rainbowtext15{
+    0%{
+        color: rgb(255, 0, 0);
+        font-size: 20px;
+    }
+    25%{
+        color:rgb(70, 104, 255);
+    }
+    50%{
+        color: tomato;
+        font-size: 20px;
+    }
+    75%{
+        color:rgb(0, 255, 0);
+        font-size: 20px;
+    }
+    100%{
+        color: orange;
+        font-size: 20px;
+    }
+}
+
  /**latest work**/
+ .latest-color h3{
+     color: dimgray;
+     background-color: gold;
+     width: max-content;
+     text-align: center;
+ }
+ .latest-color img{
+     width: 100%;
+ }
 .link-btn {
     background-image: linear-gradient(yellow,rgb(255, 208, 0));
     border-radius: 10px;
@@ -295,6 +420,8 @@
     margin-top: 100px;
     color: white;
     margin-bottom: 30px;
+    margin-top: 50px;
+    padding-top: 30px;
 }
 
 h1.header {
@@ -313,14 +440,14 @@ h1.header {
         font-size: 30px;
     }
     25%{
-        color:purple;
+        color:rgb(255, 0, 255);
     }
     50%{
-        color: yellow;
+        color: rgb(0, 0, 0);
         font-size: 30px;
     }
     75%{
-        color:greenyellow;
+        color:rgb(0, 89, 255);
         font-size: 30px;
     }
     100%{
@@ -329,17 +456,18 @@ h1.header {
     }
 }
 .link-color{
-    color: white;
+    color: dimgray;
     font-weight: 900;
+    padding-bottom: 50px;
+    
 }
 .contact-bg{
-    background-image: linear-gradient(cyan,blue);
-    height: 200px;
+    background-color:rgb(231, 231, 231);
     text-align: center;
-    border-radius: 30px;
+    border-radius: 10px;
 }
-.contact-bg:hover{
-    background-image: linear-gradient(rgb(255, 162, 255),cyan,blue); 
+.l1, .l2, .l3, .l4{
+    padding-bottom: 10px;
 }
 
 /** footer **/
